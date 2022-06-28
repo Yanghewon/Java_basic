@@ -1,0 +1,28 @@
+package testPjt;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		// 기본자료형(byte가 작을수록 그 속에 담을 수 있는 bit가 적어 프로그램이 원활하게 돌아가기 어려움)
+		char c ='a'; // 2byte
+		System.out.println("c= " + c);
+		
+		int i = 10; // 4byte
+		System.out.println("i = " + i);
+		
+		double d = 10.123; // 8byte
+		System.out.println("d = " + d);
+		
+		boolean b= false; // 1byte
+		System.out.println("b = " + b);
+		
+		String s = "Hello Java World!!"; // 객체자료형 4byte
+		System.out.println("s = " + s);
+		
+		s = "Good";
+		System.out.println("s = " + s);
+		
+	}
+
+}

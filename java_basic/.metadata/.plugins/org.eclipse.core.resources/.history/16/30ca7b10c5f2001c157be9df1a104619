@@ -1,0 +1,40 @@
+package testPjt;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		// 기본자료형(byte가 작을수록 그 속에 담을 수 있는 bit가 적어 프로그램이 원활하게 돌아가기 어려움)
+		char c ='a'; // 2byte
+		System.out.println("c= " + c);
+		
+		int i = 10; // 4byte
+		System.out.println("i = " + i);
+		
+		double d = 10.123; // 8byte
+		System.out.println("d = " + d);
+		
+		boolean b= false; // 1byte
+		System.out.println("b = " + b);
+		
+		String s = "Hello Java World!!"; // 객체자료형 4byte
+		System.out.println("s = " + s);
+		
+		s = "Good";
+		System.out.println("s = " + s);
+		
+		// 자동(묵시적) 형 변환:
+		// -> 작은 공간의 메모리에서 큰 공간의 메모리로 이동
+		byte by = 10; // 1byte
+		int in = by; // 4byte
+		System.out.println("in = " +in);
+		
+		// 명시적 형 변환:
+		// 큰 공간의 메모리에서 작은 공간의 메모리로 이동
+		int ivar = 100;
+		byte bvar = (byte)ivar;
+		System.out.println("bvar = " +bvar); // 명시적 형 변환은 데이터가 누실 될 수 있다(큰 숫자가 오면 작은 byte가 다 담아낼 수 x)
+		
+	}
+
+}
