@@ -12,10 +12,12 @@ public class MainClassA {
 				
 		child1.getInfo();
 		
-		ChildClassA child2 = new ChildClassA("Chanho", "M", 27);
+		ChildClassA child2 = new ChildClassA();
+		
+		child2.setInfo("Chanho", "M", 27);
 		child2.getInfo();
 		
-		
+			
 	}
 
 }
