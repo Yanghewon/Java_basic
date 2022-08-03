@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="testPjt.ChildClassA"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="lec20220802.OuterClass.InnerClass"/>
+    <fullyQualifiedTypeName name="lec20220802.OuterClass.SInnerClass"/>
 </qualifiedTypeNameHistroy>
