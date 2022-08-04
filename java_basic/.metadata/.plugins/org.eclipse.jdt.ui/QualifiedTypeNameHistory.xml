@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="lec20220802.OuterClass.InnerClass"/>
     <fullyQualifiedTypeName name="lec20220802.OuterClass.SInnerClass"/>
+    <fullyQualifiedTypeName name="lec20220804.LambdaInterface1"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
