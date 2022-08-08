@@ -13,7 +13,7 @@ package lec20220804;
 
 public class MainClassI {
 	
-	public static void name(String[] args) {
+	public static void main(String[] args) {
 		
 	//	String str = "JAVA"
 		String str = new String("JAVA");
