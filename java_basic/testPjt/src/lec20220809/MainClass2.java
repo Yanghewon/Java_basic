@@ -1,5 +1,7 @@
 package lec20220809;
 
+// 출력
+
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.*;	//IOException을 사용하기 위함
